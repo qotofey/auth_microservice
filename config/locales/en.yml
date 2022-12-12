@@ -1,0 +1,9 @@
+en:
+  dry_validation:
+    rules:
+      email: 'E-mail'
+
+    errors:
+      rules:
+        email:
+          invalid: 'KRA KRA'

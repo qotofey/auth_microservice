@@ -1,0 +1,19 @@
+ru:
+  dry_validation:
+    rules:
+      data:
+        attributes:
+          name: 'Имя пользоватля'
+          email: 'Адрес электронной почты'
+          password: ''
+          confirmed_password: ''
+    errors:
+      rules:
+        name:
+          invalid: 'не корректен'
+        email:
+          invalid: 'не корректен'
+        password:
+          invalid: 'не корректен'
+        confirmed_password:
+          invalid: 'не корректен'

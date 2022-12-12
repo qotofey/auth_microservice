@@ -1,0 +1,8 @@
+ru:
+  services:
+    user:
+      fetch_user_service:
+        forbidden: ''
+    user_sessions:
+      create_service:
+        unauthorized: 'неверный e-mail или пароль'

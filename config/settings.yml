@@ -1,0 +1,8 @@
+db:
+  adapter: postgresql
+  database: auth_microservice
+  encoding: unicode
+  host: localhost
+  user: qotofey
+app:
+  secret: 123123
